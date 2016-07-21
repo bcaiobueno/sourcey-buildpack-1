@@ -3,7 +3,8 @@ applications:
   memory: 128M
   instances: 1
   domain: mybluemix.net
-  name: python-concur-handscanner-prototype
-  host: python-concur-handscanner-prototype
+  name: travelibm
+  host: travelibm
   disk_quota: 512M
-  buildpack: python_buildpack
+  buildpack: https://github.com/lordillusions/sourcey-buildpack.git
+  random-route: true
