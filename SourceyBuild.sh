@@ -15,7 +15,7 @@ buildAuto https://www.python.org/ftp/python/2.7.12/Python-2.7.12.tgz
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 
-buildAuto http://www.aleksey.com/xmlsec/download/xmlsec1-1.2.22.tar.gz
+buildAuto https://www.aleksey.com/xmlsec/download/xmlsec1-1.2.26.tar.gz
 
 # build the Mojolicious perl module
 # this calles cpanm internally ... 
